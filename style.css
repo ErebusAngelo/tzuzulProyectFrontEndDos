@@ -2,9 +2,12 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-  }
+    background-image:url(./galeria-arte-habitacion-vacia-3d-paredes-blancas-museo_107791-1743.webp);
+    background-repeat:round
+}
 
   body {
+    display: flex;
     width: 100vw;
     height: 100vh;
 
@@ -12,21 +15,171 @@
   }
 
   .container {
+    justify-content: center;
+    margin-top: 200px;
     width: 100%;
     height: auto;
 
     display: grid;
-   grid-template-columns:repeat(4, 100px);
-grid-template-rows:repeat(4, 150px);
-   column-gap: 70px;
-   row-gap: 30px;
- grid-auto-flow: column;
- grid-auto-columns: 
+   grid-template-columns:repeat(12, 120px);
+grid-template-rows:repeat(4, 200px);
+   column-gap: 10px;
+   row-gap: 10px;
+ 
   }
   .container div {
-    width: 150px;
-    height: 150px;
-
-    border: 1px solid;
-    background-color: #fff;
+   
+ display: flex;
+    border: 1px solid ;
+    
   }
+
+ 
+.box-1{
+display: flex;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 3;
+
+}
+
+.Gioconda{
+    
+    width: 250px;
+    height: 410px;
+    object-fit:fill;
+  
+}
+
+p{
+    padding-top: 180px;
+    text-align: center;
+    width: 250px;
+    height: 410px;
+    position:absolute;
+    opacity: 0;
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+p:hover{
+    opacity: 1;
+    transition-duration: 2s;
+}
+  
+.box-2{
+    
+    display: flex;
+  grid-column-start: 3;
+  grid-column-end: 9;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+
+.Adan{
+    width: 767px;
+    object-fit:fill;
+}
+
+.MiguelP{padding-top: 180px;
+    text-align: center;
+    width: 767px;
+    height: 410px;
+    position:absolute;
+    opacity: 0;
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+.box-3{
+    
+    display: flex;
+  grid-column-start: 9;
+  grid-column-end: 13;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+
+.Grito{
+    width: 510px;
+    object-fit:fill;
+}
+.GritoP{padding-top: 180px;
+    text-align: center;
+    width: 510px;
+    height: 410px;
+    position:absolute;
+    opacity: 0;
+    font-size: xx-large;
+    font-weight: bold;
+}
+.box-4{
+    
+    display: flex;
+  grid-column-start: 1;
+  grid-column-end: 6;
+  grid-row-start: 3;
+  grid-row-end: 5;
+}
+.Dali{
+    width: 640px;
+    object-fit:fill;
+}
+.DaliP{padding-top: 180px;
+    text-align: center;
+    width: 640px;
+    height: 410px;
+    position:absolute;
+    opacity: 0;
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+.box-5{
+    
+    display: flex;
+  grid-column-start: 6;
+  grid-column-end: 11;
+  grid-row-start: 3;
+  grid-row-end: 5;
+}
+
+.Vangogh{
+    width: 640px;
+    object-fit:fill;
+}
+.VangoghP{padding-top: 180px;
+    text-align: center;
+    width: 640px;
+    height: 410px;
+    position:absolute;
+    opacity: 0;
+    font-size: xx-large;
+    font-weight: bold;
+}
+.box-6{
+    
+    display: flex;
+  grid-column-start: 11;
+  grid-column-end: 14;
+  grid-row-start: 3;
+  grid-row-end: 5;
+}
+
+.Gotico{
+    width: 260px;
+    height: 410px;
+    object-fit:fill;
+
+}
+
+.GoticoP{padding-top: 180px;
+    text-align: center;
+    width: 260px;
+    height: 410px;
+    position:absolute;
+    opacity: 0;
+    font-size: xx-large;
+    font-weight: bold;
+}
