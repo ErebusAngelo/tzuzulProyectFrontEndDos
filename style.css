@@ -2,7 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    background-image:url(./galeria-arte-habitacion-vacia-3d-paredes-blancas-museo_107791-1743.webp);
+    background-image:url(./Fondo/galeria-arte-habitacion-vacia-3d-paredes-blancas-museo_107791-1743.webp);
     background-repeat:round
 }
 
@@ -10,13 +10,14 @@
     display: flex;
     width: 100vw;
     height: 100vh;
-
+    align-items: center;
+    
     background-color: black;
   }
 
   .container {
     justify-content: center;
-    margin-top: 200px;
+    
     width: 100%;
     height: auto;
 
